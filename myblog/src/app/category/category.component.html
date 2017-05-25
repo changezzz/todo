@@ -1,0 +1,9 @@
+<ul>
+	<li *ngFor="let blog of blogs">
+		<a routerLink="/category/{{blog.id}}"><strong>{{blog.name}}</strong></a>
+		<br>
+		<span>&nbsp;{{blog.createTime}}</span>
+		<br>
+		<br>
+	</li>
+</ul>
