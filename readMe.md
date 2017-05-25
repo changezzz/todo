@@ -1,0 +1,3 @@
+git rm .....
+git commit -m "commit information"
+git push
